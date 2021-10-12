@@ -39,6 +39,13 @@ textarea {
 button,
 input { /* 1 */
   overflow: visible;
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border: none;
+  border-radius: 6px;
+  background-color: #D8D8D8;
 }
 
 /**
