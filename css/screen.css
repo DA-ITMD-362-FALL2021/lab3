@@ -17,11 +17,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
  */
 
 body {
-    text-align: center;
-    background-color: #e6e6ff;
+  background-color: #e6e6ff;
+  text-align: center;
 }
 
-button,
+button, 
 input,
 optgroup,
 select,
@@ -30,24 +30,16 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+
 }
+
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
 
-button { /* 1 */
-  overflow: visible;
-  box-sizing: border-box;
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 1.5%;
-  border: none;
-  border-radius: 6px;
-  background-color: #66b3ff;
-}
-
+button, 
 input { /* 1 */
   overflow: visible;
   box-sizing: border-box;
@@ -129,6 +121,7 @@ legend {
   max-width: 100%; /* 1 */
   padding: 0; /* 3 */
   white-space: normal; /* 1 */
+
 }
 
 /**
@@ -230,6 +223,31 @@ h1 {
   font-size: 50px;
   
   }
+
+p {
+  font-weight: 600;
+  font-style: italic;
+}
+
+@media screen only and (min-width: 620px) {
+  label {
+    display: inline-block;
+    margin-right: 0px;
+    font-size: 1.8em;
+    width: 30%;
+    height: 20px;
+  }
+
+  input {
+
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.8em;
+    width: 30%;
+    height: 20px;
+  }
+
+}
 
 /* ===== LAYOUT STYLES ====== */
 
